@@ -3,3 +3,7 @@ print('mensagem')
 print("Nova feature adicionada!")
 print('Fazendo o merge com a branch main')
 
+def saudacao(nome): 
+    return print(f'Seja bem vindo, {nome}')
+
+saudacao(asimov)
